@@ -2,13 +2,13 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAXFme_oTPlrFmWIm707ac6Z2qawoTvf2k",
-  authDomain: "authentication-tutorial-ec556.firebaseapp.com",
-  projectId: "authentication-tutorial-ec556",
-  storageBucket: "authentication-tutorial-ec556.appspot.com",
-  messagingSenderId: "945663559539",
-  appId: "1:945663559539:web:51b9786fd75d399bf86706",
-  measurementId: "G-22FP5PHT1F",
+  apiKey: "AIzaSyBoIicvYG2iAWpl7VPXKXG4uQA6SjKmUZQ",
+  authDomain: "gotogardens-caf31.firebaseapp.com",
+  databaseURL: "https://gotogardens-caf31-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "gotogardens-caf31",
+  storageBucket: "gotogardens-caf31.appspot.com",
+  messagingSenderId: "578896492749",
+  appId: "1:578896492749:web:718d955ffa711ffa72d184"
 };
 
 const app = initializeApp(firebaseConfig);
